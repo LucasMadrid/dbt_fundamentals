@@ -7,7 +7,7 @@ with payments as (
         status,
         created as created_at
     from
-        raw.stripe.payment
+        {{ source('stripe', 'payment') }}
 )
 
 select * from payments
