@@ -1,10 +1,25 @@
-Welcome to your new dbt project!
+# DBT project
 
-### Using the starter project
+### This project if for the free DBT courses. 
+Here you are going to see every related to DBT:
+* SQL models.
+* Jinja templates.
+* Macros.
+* Packages.
+* Tests.
+* Docs.
+* Deployments.
 
-Try running the following commands:
-- dbt run
-- dbt test
+Data source:
+* Snowflake
+
+### Using this project
+
+The following command sequence is how I deploy the DBT job:
+- ``` dbt deps ``` this command checks for dependencies and install those that are required in _packages.yml_.
+- ``` dbt run ``` this command execute the model and build up everything inside of it.
+- ``` dbt test ``` this commnad is responsible to execute tests. In this case we have singular and generic tests.
+- ``` dbt docs generate ``` this command will generate the respective documentation about the model.
 
 
 ### Resources:

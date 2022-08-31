@@ -1,6 +1,7 @@
 with orders as (
 
     select
+        {{ dbt_utils.surrogate_key(['id', 'order_date']) }} as id,
         id as order_id,
         user_id as customer_id,
         order_date,
