@@ -24,7 +24,7 @@ The following command sequence is how I deploy the DBT job:
 - ``` dbt docs generate ``` this command will generate the respective documentation about the model.
 
 
-### Courses done:
+### Courses:
 * [dbt fundamentals](https://courses.getdbt.com/courses/fundamentals)
 * [Analyses and Seeds](https://courses.getdbt.com/courses/analyses-seeds)
 * [Jinja, Macros, Packages](https://courses.getdbt.com/courses/jinja-macros-packages)
