@@ -9,6 +9,8 @@ Here you are going to see every related to DBT:
 * Tests.
 * Docs.
 * Deployments.
+* Seeds.
+* Analyses queries.
 
 Data source:
 * Snowflake
