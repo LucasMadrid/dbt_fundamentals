@@ -28,8 +28,8 @@ The following command sequence is how I deploy the DBT job:
 * [dbt fundamentals](https://courses.getdbt.com/courses/fundamentals)
 * [Analyses and Seeds](https://courses.getdbt.com/courses/analyses-seeds)
 * [Jinja, Macros, Packages](https://courses.getdbt.com/courses/jinja-macros-packages)
-* [Analyses and Seeds](https://courses.getdbt.com/courses/analyses-seeds)
 * [Advanced Materializations](https://courses.getdbt.com/courses/advanced-materializations)
+* [Refactoring SQL for Modularity](https://courses.getdbt.com/courses/refactoring-sql-for-modularity)
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
